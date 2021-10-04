@@ -1,12 +1,12 @@
-##Welkom bij de Java oefening GuineaPigRace!
+## Welkom bij de Java oefening GuineaPigRace!
 
-####Vereiste voorkennis en installatie
+#### Vereiste voorkennis en installatie
 
 Basiskennis Java. IntelliJ en GIT. Commando's in het Terminal venster uitvoeren.
 
-####Wat gaan we maken?
+#### Wat gaan we maken?
 
-We gaan een hamsterrace spel maken dat als volgt moet gaan werken:
+Een hamsterrace spel dat als volgt moet gaan verlopen:
 
 1. Er zijn 3 hamsters die tegen elkaar racen.
 2. Er wordt een bord gebruikt waarbij elke kolom een race track van een hamster voorstelt. De hamsters worden aangeduid met een teken zoals @, X, etc. naar keuze.
@@ -26,36 +26,38 @@ Het bord moet er in de console bij de start van het spel zo uitzien:
 	- het teken dat een hamster aanduidt.
 
 
-####Hoe gaan we dit aanpakken?
+#### Hoe pakken we dit aan?
 
 We gaan de applicatie opsplitsen in een aantal duidelijke, overzichtelijke deeltaken en deze één voor één programmeren. Anders gezegd: we verdelen de applicatie in een aantal te realiseren _functionaliteiten_ (in het Engels _features_). Elke feature ga je realiseren in een aparte opdracht. Dit zijn de deeltaken:
 
 1. Een leeg bord in de console tonen.
 
-2. Een bord met één of meer tokens in de console tonen.
+2. Een leeg bord in de console tonen met start- en finishlijn
 
-3. Een willekeurig nummer genereren
+3. Een bord met één of meer tokens in de console tonen.
 
-4. Spelersinvoer vragen in de console en opslaan zodat deze verder gebruikt kan worden.
+4. Een willekeurig nummer genereren
 
-5. Spelersinvoer ontvangen en bepalen wie gewonnen heeft. We spelen dus zo één ronde.
+5. Spelersinvoer vragen in de console en opslaan zodat deze verder gebruikt kan worden.
 
-6. Een ronde spelen waarbij de positie van de spelers wordt bijgehouden.
+6. Spelersinvoer ontvangen en bepalen wie gewonnen heeft. We spelen dus zo één ronde.
 
-7. Een ronde spelen waarna het bord wordt geprint met de juiste posities van de spelers.
+7. Een ronde spelen waarbij de positie van de spelers wordt bijgehouden.
 
-8. Twee rondes spelen
+8. Een ronde spelen waarna het bord wordt geprint met de juiste posities van de spelers.
 
-9. Rondes spelen tot één van de spelers heeft gewonnen. In de console tonen welke speler heeft gewonnen.
+9. Twee rondes spelen
 
-####Hoe voer je de opdrachten uit?
+10. Het volledige spel spelen. Rondes spelen tot één van de spelers heeft gewonnen. In de console tonen welke speler heeft gewonnen.
+
+#### Hoe voer je de opdrachten uit?
 
 Elke opdracht kun je vinden een eigen GIT branch. Ga bij de start van elke volgende opdracht als volgt te werk:
 
 1. Check uit de branch van de oefening bijv. :
     `git checkout exercise1`
 
-    In elke branch wordt in README de opdracht uitgelegd.
+    In elke branch wordt in README de opdracht uitgelegd.    
     
 2. Maak een nieuwe branch en noem deze solution gevolgd door het nummer van de oefening en je eigen initialen. Stel bijv. dat je de initialen BvS hebt en je hebt _exercise1_ uitgecheckt. Voer dan in het Terminal venster het volgende commando uit:
 
@@ -66,6 +68,6 @@ Elke opdracht kun je vinden een eigen GIT branch. Ga bij de start van elke volge
 4. Voer regelmatig een commit uit, vooral als je een onderdeel van een opdracht af hebt. 
    Voeg altijd vóór een commit eerst alle bestanden toe aan GIT met `git add .` Daarna de commit uitvoeren met bijv. `git commit -m "Empty board"`
 
-####We gaan beginnen!
+#### We gaan beginnen!
 
 Ga nu naar de branch van de eerste opdracht met `git checkout -b exercise1` Veel plezier!
