@@ -59,20 +59,13 @@ Elke opdracht kun je vinden een eigen GIT branch. Ga bij de start van elke volge
     
 2. Maak een nieuwe branch en noem deze solution gevolgd door het nummer van de oefening en je eigen initialen. Stel bijv. dat je de initialen BvS hebt en je hebt _exercise1_ uitgecheckt. Voer dan in het Terminal venster het volgende commando uit:
 
-    `git checkout -b solution1-bvs`
+   `git checkout -b solution1-bvs`
 
 3. Lees zorgvuldig de opdracht in README.md
 
-4. Voer regelmatig een commit uit, vooral als je onderdeel van een opdracht af hebt. Bijv. :
-
-`git commit -a -m "Empty board"`
-
-TODO werkt commit -a als klasse uit andere branch is toegevoegd?
+4. Voer regelmatig een commit uit, vooral als je een onderdeel van een opdracht af hebt. 
+   Voeg altijd vóór een commit eerst alle bestanden toe aan GIT met `git add .` Daarna de commit uitvoeren met bijv. `git commit -m "Empty board"`
 
 ####We gaan beginnen!
 
-Ga nu naar de branch van de eerste opdracht:
-
-    `git checkout -b exercise1`
-
-Veel plezier!
+Ga nu naar de branch van de eerste opdracht met `git checkout -b exercise1` Veel plezier!
